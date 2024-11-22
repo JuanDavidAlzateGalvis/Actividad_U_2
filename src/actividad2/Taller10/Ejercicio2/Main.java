@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package actividad2.Taller9.Ejercicio1;
+package actividad2.Taller10.Ejercicio2;
 
 /**
  *
@@ -11,16 +11,15 @@ package actividad2.Taller9.Ejercicio1;
 public class Main {
     
     public static void main(String[] args) {
-
-        System.out.println("Ejercicio 1");
+        
+        System.out.println("Ejercicio 2");
         System.out.println("");
         
-        Persona sergio = new Persona("Uriel Alzate", 34);
-        Empleado gerson = new Empleado("Juan Alzate", 30, "Logistica");
+        Vehiculo vehiculo = new Vehiculo("Chevrolet", 140);
+        Bicicleta bicicleta = new Bicicleta("Specialized", 50, "Tarmac");
 
-        sergio.mostrarDetalles();
+        vehiculo.moverse();
         System.out.println("");
-        gerson.mostrarDetalles();
-        System.out.println("");
+        bicicleta.moverse();
     }
 }

@@ -10,4 +10,16 @@ package actividad2.Taller9.Ejercicio2;
  */
 public class Main {
     
+    public static void main(String[] args) {
+
+        System.out.println("Ejercicio 2");
+        System.out.println("");
+        
+        Animal pezbetta = new Animal("Pez globo");
+        Pez pez = new Pez("Pez globo", "Agua dulce");
+        
+        pezbetta.mostrarEspecie();
+        System.out.println("");
+        pez.mostrarEspecie();
+    }
 }

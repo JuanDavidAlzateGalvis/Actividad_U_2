@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package actividad2.Taller9.Ejercicio1;
+package actividad2.Taller10.Ejercicio1;
 
 /**
  *
@@ -15,12 +15,14 @@ public class Main {
         System.out.println("Ejercicio 1");
         System.out.println("");
         
-        Persona sergio = new Persona("Uriel Alzate", 34);
-        Empleado gerson = new Empleado("Juan Alzate", 30, "Logistica");
+        Persona persona = new Persona("Juan Alzate", 20);
+        Estudiante estudiante = new Estudiante("Valentina zuniga", 24, "B4089");
+        Profesor profesor = new Profesor("Jhon Arrieta", 66, "Programacion Orientada a Objetos");
 
-        sergio.mostrarDetalles();
+        persona.presentarse();
         System.out.println("");
-        gerson.mostrarDetalles();
+        estudiante.presentarse();
         System.out.println("");
+        profesor.presentarse();
     }
 }

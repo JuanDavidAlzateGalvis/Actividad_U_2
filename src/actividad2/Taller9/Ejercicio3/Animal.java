@@ -10,4 +10,16 @@ package actividad2.Taller9.Ejercicio3;
  */
 public class Animal {
     
+    protected String especie;
+    private String nutricion;
+
+    public Animal(String especie, String nutricion) {
+        this.especie = especie;
+        this.nutricion = nutricion;
+    }
+
+    public void mostrarEspecie() {
+        System.out.println("Especie: " + especie);
+        System.out.println("Nutrición: " + nutricion);
+    }
 }
